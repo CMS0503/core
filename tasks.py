@@ -34,7 +34,7 @@ def play_game(data):
     match_dir = os.getcwd()  # os.path.join(os.getcwd(), 'match')
     extension = {'': '', 'C': '.c', 'C++': '.cpp', 'PYTHON': '.py', 'JAVA': '.java'}
     update_url = 'http://203.246.112.32:8000/api/v1/game/' + match_data['match_id']
-
+    # test
 
     challenger_code_filename = 'challenger{0}'.format(extension[match_data['challenger_language']])
     oppositer_code_filename = 'oppositer{0}'.format(extension[match_data['opposite_language']])
